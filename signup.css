@@ -15,3 +15,7 @@ body {
   height: 40px;
   font-size: 30px;
 }
+
+#blurb {
+  color: white;
+}
