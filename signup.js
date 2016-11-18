@@ -11,9 +11,8 @@ create.click(function() {
     console.log("hi")
     var password = newPass1.val();
   }
-  storeValue(username, password + "///" + tacoCount)
   else {
     $("#title").html("Those passwords don't match.");
   }
- 
+  storeValue(username, password + "///" + tacoCount)
 })
