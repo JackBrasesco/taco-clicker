@@ -5,6 +5,7 @@ var create = $("#create");
 
 create.click(function() {
   console.log(newPass1.val());
+  console.log(newPass2.val());
   var username = newUser.val();
   if (newPass1.val() == newPass2.val()) {
     console.log("hi")
