@@ -9,6 +9,6 @@ create.click(function() {
     var password = newPass1;
   }
   else {
-     
+    $("#wrong").css({dipslay: "block"}); 
   }
 })

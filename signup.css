@@ -21,8 +21,8 @@ body {
 }
 
 #wrong {
-  color: re;
+  color: white;
   font-size: 40px;
   text-align: center;
-  
+  display: none;
 }
