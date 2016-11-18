@@ -1,11 +1,11 @@
-var newUser = $("#inputUser")
+var newUser = $("#inputUser").val();
 var newPass1 = $("#inputPass1").val();
 var newPass2 = $("#inputPass2").val();
 var create = $("#create");
 
-wrong = "0"
+var wrong = "0"
 create.click(function() {
-  console.log(newUser.val());
+  console.log(newUser);
   console.log(newPass1);
   console.log(newPass2);
 
