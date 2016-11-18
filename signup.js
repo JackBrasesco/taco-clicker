@@ -8,4 +8,7 @@ create.click(function() {
   if (newPass1 == newPass2) {
     var password = newPass1;
   }
+  else {
+     
+  }
 })
