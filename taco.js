@@ -13,11 +13,7 @@ function tacoClickedAnimation1() {
   
   moreTaco()
   $("#tacoTitle").html("You have " + tacoCount + " tacos!");
-  setInterval(function() {
-    
-    tacoPerSecond = (tacoCount - tacoPerSecond)
-    console.log(tacoPerSecond)
-  },1000)
+  
 }
 
 
