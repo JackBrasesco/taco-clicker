@@ -12,7 +12,7 @@ create.click(function() {
     var password = newPass1.val();
   }
   else {
-    $("#wrong").css({dipslay: "inline-block"});
+    $("#title").html("Those passwords don't match.");
   }
  
 })
