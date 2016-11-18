@@ -6,3 +6,9 @@
 body {
   background-image: url("http://www.highresolutiontextures.com/wp-content/uploads/2010/09/brick-wall-free-textures-01.jpg");
 }
+
+.inputStyle {
+  display:inline-block ;
+  margin-top: 50;
+  margin-left: 250;
+}
