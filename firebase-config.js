@@ -1,7 +1,7 @@
 var firebaseConfig = {
-  apiKey: "AIzaSyBPS8LUaOKzSRdfnjwpoJtq0xmoVASioQ0",
-  authDomain: "chat-4e85b.firebaseapp.com",
-  databaseURL: "https://chat-4e85b.firebaseio.com/"	
+  apiKey: "AIzaSyAaqLnL19hVcl0dB4r5SBdDDlCpvQRWm9U",
+  authDomain: " taco-19001.firebaseapp.com",
+  databaseURL: "https:// taco-19001.firebaseio.com/"	
 };
 
 firebase.initializeApp(firebaseConfig);
