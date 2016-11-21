@@ -11,5 +11,7 @@ body {
 }
 
 #welcome {
-  
-}back
+  background-color: black;
+  color: white;
+  text-align: center;
+}
