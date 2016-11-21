@@ -1,5 +1,7 @@
 var taco = $("#taco");
 
+$("#tacoTitle").html("You have " + localStorage.getItem("tacos") + " tacos!");
+
 taco.click(function() {
   tacoClickedAnimation1();
 })
@@ -16,7 +18,6 @@ function tacoClickedAnimation1() {
   
 }
 
-
 var tacoCount = 0;
 
 function moreTaco() {
@@ -27,4 +28,3 @@ function moreTaco() {
 }
 
 var tacoPerSecond = 0;
-
