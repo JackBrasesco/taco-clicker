@@ -24,3 +24,5 @@ function moreTaco() {
 }
 
 var tacoPerSecond = 0;
+
+localStorage.setItem("tacos",tacoCount);
