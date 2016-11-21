@@ -1,3 +1,3 @@
 $("#welcome").click(function() {
-  $("#welcome").css({d
+  $("#welcome").css({display: "none"});
 })
