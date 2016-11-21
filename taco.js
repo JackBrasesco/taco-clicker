@@ -21,9 +21,10 @@ function tacoClicked() {
 if (localStorage.getItem("tacos") > 0) {
   tacoCount = localStorage.getItem("tacos");
 }
-else {
-  
-}
+  else {
+  tacoCount = 0
+  }
+
 var tacoCount = localStorage.getItem("tacos");
 
 function moreTaco() {
