@@ -3,10 +3,10 @@ var taco = $("#taco");
 $("#tacoTitle").html("You have " + localStorage.getItem("tacos") + " tacos!");
 
 taco.click(function() {
-  tacoClickedAnimation1();
+  tacoClicked();
 })
 
-function tacoClickedAnimation1() {
+function tacoClicked() {
   taco.css({background: "ghostwhite"});
   
   setTimeout(function() {
@@ -18,13 +18,13 @@ function tacoClickedAnimation1() {
   
 }
 
-var tacoCount = 0;
+if (localStorage.getIt
+var tacoCount = localStorage;
 
 function moreTaco() {
   tacoCount = tacoCount + 1
   localStorage.setItem("tacos",tacoCount);
-  console.log(localStorage.getItem("tacos");
-
+  console.log(localStorage.getItem("tacos"));
 }
 
 var tacoPerSecond = 0;
