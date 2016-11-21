@@ -18,8 +18,13 @@ function tacoClicked() {
   
 }
 
-if (localStorage.getIt
-var tacoCount = localStorage;
+if (localStorage.getItem("tacos") > 0) {
+  tacoCount = localStorage.getItem("tacos");
+}
+else {
+  
+}
+var tacoCount = localStorage.getItem("tacos");
 
 function moreTaco() {
   tacoCount = tacoCount + 1
