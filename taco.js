@@ -12,7 +12,7 @@ function tacoClickedAnimation1() {
     }, 100)
   
   moreTaco()
-  $("#tacoTitle").html("You have " + tacoCount + " tacos!");
+  $("#tacoTitle").html("You have " + localStorage.getItem("tacos") + " tacos!");
   
 }
 
@@ -21,8 +21,10 @@ var tacoCount = 0;
 
 function moreTaco() {
   tacoCount = tacoCount + 1
+  localStorage.setItem("tacos",tacoCount);
+  console.log(localStorage.getItem("tacos");
+
 }
 
 var tacoPerSecond = 0;
 
-localStorage.setItem("tacos",tacoCount);
