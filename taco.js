@@ -28,9 +28,8 @@ if (localStorage.getItem("tacos") > 0) {
 var tacoCount = localStorage.getItem("tacos");
 
 function moreTaco() {
-  tacoCount = tacoCount + 1
+  tacoCount = (localStorage.getItem("tacos").parseInt() + 1);
   localStorage.setItem("tacos",tacoCount);
-  console.log(localStorage.getItem("tacos"));
 }
 
 var tacoPerSecond = 0;
