@@ -17,12 +17,12 @@ function tacoClicked() {
   $("#tacoTitle").html("You have " + localStorage.getItem("tacos") + " tacos!");
   
 }
-
-if (localStorage.getItem("tacos") > 0) {
-  tacoCount = localStorage.getItem("tacos");
+localStorage.clear()
+if (localStorage.getItem("tacos") == null) {
+  tacoCount = 0;
 }
   else {
-  tacoCount = 0
+  tacoCount = localStorage.getItem("tacos");
   }
 
 var tacoCount = localStorage.getItem("tacos");
