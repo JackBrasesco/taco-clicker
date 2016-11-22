@@ -14,11 +14,10 @@ function tacoClicked() {
     }, 100)
   
   moreTaco()
-  $("#tacoTitle").html("You have " + localStorage.getItem("tacos") + " tacos!");
+  $("#tacoTitle").html("You have " + tacoCount + " tacos!");
   
 }
-localStorage.clear()
-if (localStorage.getItem("tacos") == null) {
+if (localStorage.getItem("tacos") == NaN) {
   tacoCount = 0;
 }
   else {
