@@ -2,8 +2,12 @@ var taco = $("#taco");
 
 if (localStorage.getItem("btnpressed") == 1) {
   tacoCount = localStorage.getItem("tacos");
+  console.log("hi")
 }
-if 
+else {
+ tacoCount = 0 
+ console.log("hey")
+}
 $("#tacoTitle").html("You have " + tacoCount + " tacos!");
 
 taco.click(function() {
