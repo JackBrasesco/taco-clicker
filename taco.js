@@ -4,6 +4,7 @@ var tacoCount = 0;
 
 if (localStorage.getItem("btnpressed") == 1) {
   tacoCount = parseInt(localStorage.getItem("tacos"));
+  clickAdd = parseInt(localStorage.getItem("multiplier"));
 }
 else {
  tacoCount = 0 
