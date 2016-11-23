@@ -26,7 +26,7 @@ function tacoClicked() {
 }
 
 function moreTaco() {
-  tacoCount = (tacoCount + 1);
+  tacoCount = (tacoCount + clickAdd);
   localStorage.setItem("tacos",tacoCount);
 };
 
