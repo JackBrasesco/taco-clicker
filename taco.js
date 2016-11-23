@@ -1,5 +1,6 @@
 var taco = $("#taco");
 
+$("#tacoTitle").html("You have " + tacoCount + " tacos!");
 
 taco.click(function() {
   tacoClicked();
@@ -15,21 +16,10 @@ function tacoClicked() {
   moreTaco()
   $("#tacoTitle").html("You have " + tacoCount + " tacos!");
   
-}
-if (localStorage.getItem("tacos") == NaN) {
-  tacoCount = 0;
-}
-  else {
-  tacoCount = localStorage.getItem("tacos");
-  }
-
-var tacoCount = localStorage.getItem("tacos");
+var tacoCount = 0;
 
 function moreTaco() {
   tacoCount = (parseInt(localStorage.getItem("tacos")) + 1);
   localStorage.setItem("tacos",tacoCount);
 }
 
-var tacoPerSecond = 0;
-
-$("#tacoTitle").html("You have " + tacoCount + " tacos!");
