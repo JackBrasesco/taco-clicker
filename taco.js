@@ -4,11 +4,9 @@ var tacoCount = 0;
 
 if (localStorage.getItem("btnpressed") == 1) {
   tacoCount = parseInt(localStorage.getItem("tacos"));
-  console.log("hi")
 }
 else {
  tacoCount = 0 
- console.log("hey")
 }
 $("#tacoTitle").html("You have " + tacoCount + " tacos!");
 
@@ -30,7 +28,6 @@ function tacoClicked() {
 function moreTaco() {
   tacoCount = (tacoCount + 1);
   localStorage.setItem("tacos",tacoCount);
-  console.log(tacoCount);
 };
 
 $("#h").click(function() {
