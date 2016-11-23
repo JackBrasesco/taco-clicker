@@ -30,6 +30,7 @@ function tacoClicked() {
 function moreTaco() {
   tacoCount = (tacoCount + 1);
   localStorage.setItem("tacos",tacoCount);
+  console.log(tacoCount);
 };
 
 $("#h").click(function() {
