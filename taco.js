@@ -33,4 +33,5 @@ function moreTaco() {
 $("#h").click(function() {
   localStorage.setItem("tacos", tacoCount)
   localStorage.setItem("btnpressed", 1)
+  localStorage.setItem("multiplier", clickAdd)
 })
