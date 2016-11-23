@@ -24,7 +24,6 @@ function tacoClicked() {
   moreTaco()
   $("#tacoTitle").html("You have " + tacoCount + " tacos!");
 }
-var tacoCount = 0;
 
 function moreTaco() {
   tacoCount = (tacoCount + 1);
