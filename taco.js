@@ -1,5 +1,7 @@
 var taco = $("#taco");
 
+var tacoCount = 0;
+
 if (localStorage.getItem("btnpressed") == 1) {
   tacoCount = parseInt(localStorage.getItem("tacos"));
   console.log("hi")
