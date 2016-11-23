@@ -4,9 +4,9 @@ $("#welcome").click(function() {
 
 var clickAdd = 1;
 
-localStorage.setItem("b",clickAdd);
 
 $("#item1").click(function() {
+  var is2x = 1;
   clickAdd = (clickAdd * 2);
   console.log(clickAdd);
   localStorage.setItem("b",clickAdd)
