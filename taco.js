@@ -1,5 +1,6 @@
 var taco = $("#taco");
 
+if (localStorage.getItem("tacos")
 $("#tacoTitle").html("You have " + tacoCount + " tacos!");
 
 taco.click(function() {
@@ -24,5 +25,6 @@ function moreTaco() {
 };
 
 $("#h").click(function() {
-  localStorage.s
+  localStorage.setItem("tacos", tacoCount)
+  localStorage.setItem("btnpressed", 1)
 })
