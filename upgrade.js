@@ -6,6 +6,6 @@ var clickAdd = 1;
 
 $("#item1").click(function() {
   clickAdd = (clickAdd * 2);
-  localStorage.setItem("multiplier",clickAdd)
+  localStorage.setItem("b",clickAdd)
   console.log("hi")
 })

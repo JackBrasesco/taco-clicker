@@ -4,7 +4,7 @@ var tacoCount = 0;
 
 if (localStorage.getItem("btnpressed") == 1) {
   tacoCount = parseInt(localStorage.getItem("tacos"));
-  clickAdd = parseInt(localStorage.getItem("multiplier"));
+  clickAdd = parseInt(localStorage.getItem("b"));
 }
 else {
  tacoCount = 0 
@@ -27,6 +27,7 @@ function tacoClicked() {
 }
 
 function moreTaco() {
+  console.log(clickAdd);
   tacoCount = (tacoCount + clickAdd);
   localStorage.setItem("tacos",tacoCount);
 };
@@ -34,5 +35,5 @@ function moreTaco() {
 $("#h").click(function() {
   localStorage.setItem("tacos", tacoCount)
   localStorage.setItem("btnpressed", 1)
-  localStorage.setItem("multiplier", clickAdd)
+  localStorage.setItem("b", clickAdd)
 })
