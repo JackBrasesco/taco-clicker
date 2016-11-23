@@ -27,6 +27,7 @@ function tacoClicked() {
 }
 
 function moreTaco() {
+  console.log(parseInt(localStorage.getItem("b")));
   tacoCount = (tacoCount + parseInt(localStorage.getItem("b")));
   localStorage.setItem("tacos",tacoCount);
 };
