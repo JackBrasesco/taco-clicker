@@ -2,8 +2,6 @@ var taco = $("#taco");
 
 var tacoCount = 0;
 
-var is2x = 0
-
 if (localStorage.getItem("btnpressed") == 1) {
   tacoCount = parseInt(localStorage.getItem("tacos"));
 //  clickAdd = parseInt(localStorage.getItem("b"));
@@ -29,14 +27,13 @@ function tacoClicked() {
 }
 
 function moreTaco() {
-  if (localStorage.get == 1) {
+  if (localStorage.getItem("is2x" == 1)) {
   tacoCount = (tacoCount + parseInt(localStorage.getItem("b")));
   }
   else {
     tacoCount = (tacoCount + 1)
   }
   localStorage.setItem("tacos",tacoCount);
-  console.log(is2x)
 };
 
 $("#h").click(function() {
