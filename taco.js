@@ -15,11 +15,11 @@ function tacoClicked() {
   
   moreTaco()
   $("#tacoTitle").html("You have " + tacoCount + " tacos!");
-  
+}
 var tacoCount = 0;
 
 function moreTaco() {
   tacoCount = (parseInt(localStorage.getItem("tacos")) + 1);
   localStorage.setItem("tacos",tacoCount);
-}
+};
 
