@@ -36,3 +36,7 @@ $("#h").click(function() {
   localStorage.setItem("btnpressed", 1)
   localStorage.setItem("b", clickAdd)
 })
+
+$("#i").click(function() {
+  localStorage.clear()
+})
