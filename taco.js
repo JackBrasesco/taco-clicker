@@ -1,7 +1,7 @@
 var taco = $("#taco");
 
 if (localStorage.getItem("btnpressed") == 1) {
-  tacoCount = localStorage.getItem("tacos");
+  tacoCount = parseInt(localStorage.getItem("tacos"));
   console.log("hi")
 }
 else {
