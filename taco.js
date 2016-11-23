@@ -19,7 +19,10 @@ function tacoClicked() {
 var tacoCount = 0;
 
 function moreTaco() {
-  tacoCount = (parseInt(localStorage.getItem("tacos")) + 1);
+  tacoCount = (tacoCount + 1);
   localStorage.setItem("tacos",tacoCount);
 };
 
+$("#h").click(function() {
+  localStorage.s
+})
