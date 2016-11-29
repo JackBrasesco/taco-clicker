@@ -16,3 +16,10 @@ $("#item1").click(function() {
   price1 = (price1 * 5);
 })
 
+function animateObject() {
+  $("#item1").css({background: "ghostwhite"});
+
+    setTimeout(function() {
+    $("#item1").css({background: "white"});
+  }, 100)
+}
