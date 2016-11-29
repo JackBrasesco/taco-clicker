@@ -9,6 +9,7 @@ var price1 = 500;
 $("#price1").html("$" + price1)
 
 $("#item1").click(function() {
+  animateObject()
   localStorage.setItem("is2x",1)
   clickAdd = (clickAdd * 2);
   localStorage.setItem("b",clickAdd)
