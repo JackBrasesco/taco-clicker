@@ -6,7 +6,7 @@ var clickAdd = 1;
 
 var price1 = 500;
 
-$("#price1")
+$("#price1").html("$" + price1)
 
 $("#item1").click(function() {
   localStorage.setItem("is2x",1)
