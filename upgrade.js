@@ -10,3 +10,4 @@ $("#item1").click(function() {
   clickAdd = (clickAdd * 2);
   localStorage.setItem("b",clickAdd)
 })
+
