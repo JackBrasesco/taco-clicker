@@ -4,6 +4,7 @@ $("#welcome").click(function() {
 
 var clickAdd = 1;
 
+var price1 = 500;
 
 $("#item1").click(function() {
   localStorage.setItem("is2x",1)
