@@ -7,7 +7,7 @@ var clickAdd = 1;
 var price1 = 500;
 
 if (localStorage.getItem("is2x") == 1) {
-  $("#price1").html("$" + price1)
+  price1 = localStorage.getitem("c")
 }
 
 $("#item1").click(function() {
