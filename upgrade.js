@@ -6,7 +6,9 @@ var clickAdd = 1;
 
 var price1 = 500;
 
-$("#price1").html("$" + price1)
+if (localStorage.getItem("is2x") == 1) {
+  $("#price1").html("$" + price1)
+}
 
 $("#item1").click(function() {
   animateObject()
