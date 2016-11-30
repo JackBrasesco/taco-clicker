@@ -14,6 +14,7 @@ $("#item1").click(function() {
   clickAdd = (clickAdd * 2);
   localStorage.setItem("b",clickAdd)
   price1 = (price1 * 5);
+  $("#price1").html("$" + price1)
 })
 
 function animateObject() {
