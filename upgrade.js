@@ -20,9 +20,8 @@ $("#item1").click(function() {
   clickAdd = (clickAdd * 2);
   localStorage.setItem("b",clickAdd)
   localStorage.setItem("c",price1)
-  price1 = (price1 * 3);
   localStorage.setItem("tacos",tacoCount - price1) 
-    
+  price1 = (price1 * 3);
   $("#price1").html("T" + price1)
 
   }
