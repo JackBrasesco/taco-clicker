@@ -17,7 +17,9 @@ $("#item1").click(function() {
   price1 = (price1 * 3);
   $("#price1").html("$" + price1)
   }
-  else 
+  else if (tacoCount < price1) {
+    $("#text1").html("you cannot afford this item.
+  }
 })
 
 function animateObject() {
