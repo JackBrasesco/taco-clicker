@@ -30,7 +30,7 @@ $("#item1").click(function() {
     $("#text1").html("you cannot afford this item.");
     setTimeout(function() {
       $("#text1").html("Multiply your <br> click by 2!");
-    }, 2000)
+    }, 1000)
   }
 })
 
