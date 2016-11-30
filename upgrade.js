@@ -17,9 +17,8 @@ $("#item1").click(function() {
 })
 
 function animateObject() {
-  $("#item1").css({background: "ghostwhite"});
-
+  $("#item1").css({background: "darkblue"});
     setTimeout(function() {
-    $("#item1").css({background: "white"});
+    $("#item1").css({background: "blue"});
   }, 100)
 }
