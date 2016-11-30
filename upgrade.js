@@ -8,10 +8,10 @@ var price1 = 500;
 
 if (localStorage.getItem("is2x") == 1) {
   price1 = localStorage.getItem("c")
-  $("#price1").html("$" + price1)
+  $("#price1").html("T" + price1)
 }
 else {
-  
+  $("#price1").html("T" + price1)
 }
 $("#item1").click(function() {
   animateObject()
@@ -23,7 +23,7 @@ $("#item1").click(function() {
   price1 = (price1 * 3);
   tacoCount = (tacoCount - price1)
     
-  $("#price1").html("$" + price1)
+  $("#price1").html("T" + price1)
 
   }
   else if (tacoCount < price1) {
