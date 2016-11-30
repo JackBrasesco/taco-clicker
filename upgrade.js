@@ -19,6 +19,8 @@ $("#item1").click(function() {
   localStorage.setItem("b",clickAdd)
   localStorage.setItem("c",price1)
   price1 = (price1 * 3);
+  tacoCount = (tacoCount - price1)
+    
   $("#price1").html("$" + price1)
 
   }
