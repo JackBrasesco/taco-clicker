@@ -18,7 +18,10 @@ $("#item1").click(function() {
   $("#price1").html("$" + price1)
   }
   else if (tacoCount < price1) {
-    $("#text1").html("you cannot afford this item.
+    $("#text1").html("you cannot afford this item.")
+    setTimeout(function() {
+      $("#text1").html("Multiply your <br>
+    }, 2000)
   }
 })
 
