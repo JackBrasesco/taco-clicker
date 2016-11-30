@@ -19,11 +19,14 @@ body {
 #item1 {
   width: 100px;
   height: 100px;
-  background-color: white;
+  background-color: blue;
   border: 1px black solid
 }
 
 .shop1 {
  width: 100;
  text-align: center;
+}
+#text1 {
+  color: rebeccapurple
 }
