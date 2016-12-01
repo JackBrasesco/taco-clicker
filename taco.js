@@ -16,7 +16,7 @@ taco.click(function() {
 })
 
 setInterval(function() {
-  
+  tacoCount = tacoCount + 
 },1000)
 
 function tacoClicked() {
