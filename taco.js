@@ -15,6 +15,8 @@ taco.click(function() {
   tacoClicked();
 })
 
+
+
 function tacoClicked() {
   taco.css({background: "ghostwhite"});
   
@@ -43,7 +45,6 @@ $("#h").click(function() {
   localStorage.setItem("tacos", tacoCount)
   localStorage.setItem("btnpressed", 1)
   localStorage.setItem("b", clickAdd)
-  localStorage.setItem("isTacobell"
 })
 
 $("#i").click(function() {
