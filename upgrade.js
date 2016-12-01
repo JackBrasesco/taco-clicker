@@ -29,6 +29,7 @@ else {
 $("#item2").click(function() {
   animateObject2()
   if (tacoCount >= price2) {
+    idleAdd = (idleAdd + 10);
     localStorage.setItem("isTacoBell", 1)
     price2 = (price2 * 1.57);
     localStorage.setItem("d", price2)
