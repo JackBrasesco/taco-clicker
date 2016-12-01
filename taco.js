@@ -20,7 +20,7 @@ setInterval(function() {
   tacoCount = (tacoCount + idleAdd);
   }
   else {
-    
+    tacoCount = tacoCount
   }
 }
 ,1000)
