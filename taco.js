@@ -16,10 +16,10 @@ taco.click(function() {
 })
 
 setInterval(function() {
-  console.log(idleAdd)
-  console.log(localStorage.getItem("isTacoBell"))
   if (localStorage.getItem("isTacoBell") == 1) {
-  tacoCount = (tacoCount + localStorage.getItem("idleAdd"));
+  tacoCount = (tacoCount + parseInt(localStorage.getItem("idleAdd")));
+    $("#tacoTitle").html("You have " + tacoCount + " tacos!");
+
   }
   else {
     tacoCount = tacoCount
