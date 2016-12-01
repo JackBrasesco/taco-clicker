@@ -40,7 +40,10 @@ $("#item1").click(function() {
 })
 
 function animateObject2() {
- $("#item2").css({background: "purple"}) 
+ $("#item2").css({"background-color": "purple"});
+    setTimeout(function() {
+      $("#item2").css({"background-color": "mediumpurple"});
+    }, 100)
 }
 function animateObject() {
   $("#item1").css({background: "darkblue"});
