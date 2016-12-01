@@ -16,8 +16,9 @@ taco.click(function() {
 })
 
 setInterval(function() {
-  tacoCount = tacoCount + 
-},1000)
+  tacoCount = (tacoCount + idleAdd);
+}
+,1000)
 
 function tacoClicked() {
   taco.css({background: "ghostwhite"});
