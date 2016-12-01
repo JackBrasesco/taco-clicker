@@ -34,4 +34,6 @@ body {
 #item2 {
   width: 175p;
   height: 100px;
+  background-color: mediumpurple;
+  border: 1px black solid;
 }

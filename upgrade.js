@@ -15,6 +15,8 @@ if (localStorage.getItem("is2x") == 1) {
 else {
   $("#price1").html("T" + price1)
 }
+
+$("#item2")
 $("#item1").click(function() {
   animateObject()
   if (tacoCount >= price1) {
