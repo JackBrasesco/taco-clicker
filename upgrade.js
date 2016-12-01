@@ -35,7 +35,7 @@ $("#item2").click(function() {
   if (tacoCount >= price2) {
     tacoBellCount = (tacoBellCount + 1);
     var additive = (tacoBellCount * 10);
-    tacoCount = (tacoCount - price2);
+    localStorage.setItem("tacos",tacoCount - price2) 
     idleAdd = (idleAdd + additive);
     localStorage.setItem("idleAdd", idleAdd)
     localStorage.setItem("isTacoBell", 1)
