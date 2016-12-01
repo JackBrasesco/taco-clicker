@@ -30,6 +30,14 @@ $("#item2").click(function() {
   animateObject2()
   if (tacoCount >= price2) {
     localStorage.setItem("isTacoBell", 1)
+    price2 = price2
+    localStorage.setItem("d", price2)
+  }
+  else if (tacoCount < price2) {
+    $("#text2").html("you cannot afford this item.");
+    setTimeout(function() {
+      $("#text2").html("Multiply your <br> click by 2!");
+    }, 1000)
   }
 })
 
