@@ -6,6 +6,8 @@ var clickAdd = 1;
 
 var idleAdd = 0
 
+var tacoBellCount = 0
+
 var price1 = 500;
 
 var price2 = 1000;
@@ -31,6 +33,7 @@ $("#item2").click(function() {
   console.log(price2);
   animateObject2()
   if (tacoCount >= price2) {
+    tacoBellCount = tacoBellCount + 1)
     tacoCount = (tacoCount - price2);
     idleAdd = (idleAdd + 10);
     localStorage.setItem("idleAdd", idleAdd)
