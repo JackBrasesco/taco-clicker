@@ -16,6 +16,7 @@ taco.click(function() {
 })
 
 setInterval(function() {
+  if (
   tacoCount = (tacoCount + idleAdd);
 }
 ,1000)
@@ -34,11 +35,9 @@ function tacoClicked() {
 function moreTaco() {
   console.log(localStorage.getItem("is2x"));
   if (localStorage.getItem("is2x") == 1) {
-    console.log("hi")
   tacoCount = (tacoCount + parseInt(localStorage.getItem("b")));
   }
   else {
-    console.log("hey")
     tacoCount = (tacoCount + 1)
   }
   localStorage.setItem("tacos",tacoCount);
