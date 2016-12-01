@@ -20,6 +20,9 @@ else {
 
 $("#item2").click(function() {
   animateObject2()
+  if (tacoCount >= price2) {
+    localStorage.setItem("is)
+  }
 })
 
 $("#item1").click(function() {
