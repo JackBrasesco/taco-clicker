@@ -4,6 +4,8 @@ $("#welcome").click(function() {
 
 var clickAdd = 1;
 
+var idleAdd = 0
+
 var price1 = 500;
 
 if (localStorage.getItem("is2x") == 1) {
