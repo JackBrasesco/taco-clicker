@@ -30,3 +30,8 @@ body {
 #text1 {
   color: rebeccapurple;
 }
+
+#item2 {
+  width: 175p;
+  height: 100px;
+}
