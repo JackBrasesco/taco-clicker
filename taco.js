@@ -15,7 +15,9 @@ taco.click(function() {
   tacoClicked();
 })
 
-
+setInterval(function() {
+  
+},1000)
 
 function tacoClicked() {
   taco.css({background: "ghostwhite"});
