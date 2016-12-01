@@ -27,6 +27,8 @@ else {
 }
 
 $("#item2").click(function() {
+  console.log(tacoCount);
+  console.log(price2);
   animateObject2()
   if (tacoCount >= price2) {
     idleAdd = (idleAdd + 10);
