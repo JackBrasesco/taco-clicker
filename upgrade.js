@@ -16,7 +16,9 @@ else {
   $("#price1").html("T" + price1)
 }
 
-$("#item2")
+$("#item2").click(function() {
+  animateObject2()
+})
 $("#item1").click(function() {
   animateObject()
   if (tacoCount >= price1) {
@@ -37,6 +39,9 @@ $("#item1").click(function() {
   }
 })
 
+function animateObject2() {
+ $("#item2").css({background: "purple"}) 
+}
 function animateObject() {
   $("#item1").css({background: "darkblue"});
     setTimeout(function() {
