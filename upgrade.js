@@ -8,6 +8,8 @@ var idleAdd = 0
 
 var price1 = 500;
 
+var price2 = 1000;
+
 if (localStorage.getItem("is2x") == 1) {
   price1 = localStorage.getItem("c")
   $("#price1").html("T" + price1)
@@ -19,6 +21,7 @@ else {
 $("#item2").click(function() {
   animateObject2()
 })
+
 $("#item1").click(function() {
   animateObject()
   if (tacoCount >= price1) {
