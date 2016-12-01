@@ -16,8 +16,9 @@ taco.click(function() {
 })
 
 setInterval(function() {
+  console.log(idleAdd)
   if (localStorage.getItem("isTacoBell") == 1) {
-  tacoCount = (tacoCount + idleAdd);
+  tacoCount = (tacoCount + localStorage.getItem("idleAdd"));
   }
   else {
     tacoCount = tacoCount
