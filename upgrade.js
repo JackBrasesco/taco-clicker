@@ -19,10 +19,11 @@ else {
 }
 
 if (localStorage.getItem("is2x") == 1) {
-  
+  price2 = localStorage.getItem("d");
+  $("price2").html("T" + price2);
 }
 else {
-  $("#price2").html("T"
+  $("#price2").html("T" + price2);
 }
 
 $("#item2").click(function() {
