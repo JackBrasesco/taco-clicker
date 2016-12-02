@@ -41,6 +41,7 @@ $("#item2").click(function() {
     localStorage.setItem("isTacoBell", 1)
     price2 = (price2 * 1.57);
     localStorage.setItem("d", price2)
+    $("#pric
   }
   else if (tacoCount < price2) {
     $("#text2").html("you cannot afford this item.");

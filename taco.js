@@ -19,6 +19,8 @@ setInterval(function() {
   if (localStorage.getItem("isTacoBell") == 1) {
   tacoCount = (tacoCount + parseInt(localStorage.getItem("idleAdd")));
     $("#tacoTitle").html("You have " + tacoCount + " tacos!");
+    localStorage.setItem("tacos",tacoCount) 
+
 
   }
   else {
