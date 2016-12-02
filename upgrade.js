@@ -35,13 +35,13 @@ $("#item2").click(function() {
   if (tacoCount >= price2) {
     tacoBellCount = (tacoBellCount + 1);
     var additive = (tacoBellCount * 10);
-    localStorage.setItem("tacos",tacoCount - price2) 
+    localStorage.setItem("tacos",tacoCount - price2);
     idleAdd = (idleAdd + additive);
-    localStorage.setItem("idleAdd", idleAdd)
-    localStorage.setItem("isTacoBell", 1)
+    localStorage.setItem("idleAdd", idleAdd);
+    localStorage.setItem("isTacoBell", 1);
     price2 = (price2 * 1.57);
-    localStorage.setItem("d", price2)
-    $("#pric
+    localStorage.setItem("d", price2);
+    $("#price2").html("T" + price2);
   }
   else if (tacoCount < price2) {
     $("#text2").html("you cannot afford this item.");
