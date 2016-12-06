@@ -22,7 +22,7 @@ else {
 
 if (localStorage.getItem("isTacoBell") == 1) {
   price2 = localStorage.getItem("d");
-  $("price2").html("T" + price2);
+  $("#price2").html("T" + price2);
 }
 else {
   $("#price2").html("T" + price2);
@@ -35,7 +35,7 @@ $("#item2").click(function() {
   if (tacoCount >= price2) {
     tacoBellCount = (tacoBellCount + 1);
     var additive = (tacoBellCount * 10);
-    localStorage.setItem("tacos",tacoCount - price2);
+    localStorage.setItem("tacos",localStorage.getItem("tacos") - price2);
     idleAdd = (idleAdd + additive);
     localStorage.setItem("idleAdd", idleAdd);
     localStorage.setItem("isTacoBell", 1);
