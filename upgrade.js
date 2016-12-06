@@ -32,11 +32,11 @@ $("#item2").click(function() {
   console.log(tacoCount);
   console.log(price2);
   animateObject2()
-  if (tacoCount >= price2) {
+  if (tacoCount >= parseInt(price2)) {
     tacoBellCount = (tacoBellCount + 1);
     var additive = (tacoBellCount * 10);
     console.log(price2)
-    localStorage.setItem("tacos",localStorage.getItem("tacos") - price2);
+    localStorage.setItem("tacos",parseInt(localStorage.getItem("tacos")) - parseInt(price2));
     idleAdd = additive;
     localStorage.setItem("idleAdd", idleAdd);
     localStorage.setItem("isTacoBell", 1);
