@@ -1,0 +1,27 @@
+#tacoTitle {
+  text-align: center;
+  background-color: darkorange;
+  border: 5px black solid;
+  border-radius: 25px;
+}
+
+#taco {
+  border: 5px black solid;
+  height: 400px;
+  width: 400px;
+  margin-left: 520;
+  margin-top: 50px
+}
+
+.btm {
+  margin-left: 100;
+  width: 80;
+  color: blue;
+  text-decoration: underline;
+  align-items: baseline;
+}
+
+#bottomBar {
+  position: absolute;
+  bottom: 5px;
+}
