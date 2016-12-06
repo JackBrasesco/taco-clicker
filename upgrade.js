@@ -36,7 +36,7 @@ $("#item2").click(function() {
     tacoBellCount = (tacoBellCount + 1);
     var additive = (tacoBellCount * 10);
     localStorage.setItem("tacos",localStorage.getItem("tacos") - price2);
-    idleAdd = (idleAdd + additive);
+    idleAdd = additive;
     localStorage.setItem("idleAdd", idleAdd);
     localStorage.setItem("isTacoBell", 1);
     price2 = (price2 * 1.57);
