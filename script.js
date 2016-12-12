@@ -1,7 +1,9 @@
 var drawable = 0;
 
 $(document).keydown(function(keyPress) {
+  console.log(keyPress)
   if (keyPress.keyCode == 67) {
+    console.log(drawable)
     if (drawable == 0) {
       drawable = 1
     }
@@ -9,6 +11,7 @@ $(document).keydown(function(keyPress) {
       drawable = 0
     }
   }
+  console.log(drawable)
   if (drawable = 1) {
     if (keyPress.keyCode == 87) {
       faceDown()
