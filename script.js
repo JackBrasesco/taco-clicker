@@ -6,16 +6,20 @@ $(document).keydown(function(keyPress) {
   }
   if (drawable = 1) {
     if (keyPress.keyCode == 87) {
-      
+      faceUp()
+      goForward(10)
     }
     if (keyPress.keyCode == 68) {
-      
+      faceRight()
+      goForward(10)
     }
     if (keyPress.keyCode == 65) {
-      
+      faceLeft()
+      goForward(10)
     }
     if (keyPress.keyCode == 83) {
-      
+      faceDown()
+      goForward(10)
     }
   }
 })
