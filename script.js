@@ -5,13 +5,13 @@ $(document).keydown(function(keyPress) {
   if (keyPress.keyCode == 67) {
     console.log(drawable)
     if (drawable == 0) {
-      console.log(drawable)
+      console.log("swithicnon", drawable)
       drawable = 1
     }
     if (drawable == 1) {
-      console.log(drawable)
+      console.log("swithin off", drawable)
       drawable = 0
-      console.log(drawable)
+      console.log("wsishic offfff", drawable)
     }
   }
   console.log(drawable)
