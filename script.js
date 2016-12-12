@@ -5,7 +5,10 @@ $(document).keydown(function(keyPress) {
     drawable = 1
   }
   if (drawable = 1) {
-    
+    if (keyPress.keyCode == 87) {
+      
+    }
+    if (keyPress.k
   }
 })
 $("#text").keydown(function(keyDown) {
