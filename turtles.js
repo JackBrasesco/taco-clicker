@@ -3,22 +3,6 @@ var position = {x: 0, y: 0};
 var turtle = $("#turtle");
 var turtleCage = $(".turtle-cage")
 
-function faceUp() {
-  heading = 90
-}
-
-function faceDown() {
-  heading = 270
-}
-
-function faceRight() {
-  heading = 0
-}
-
-function faceLeft() {
-  heading = 180
-}
-
 function turnRight() {
   heading = heading + 90  
 }
