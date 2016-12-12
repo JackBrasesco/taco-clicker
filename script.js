@@ -2,11 +2,16 @@ var drawable = 0;
 
 $(document).keydown(function(keyPress) {
   if (keyPress.keyCode == 67) {
-    drawable = 1
+    if (drawable == 0) {
+      drawable = 1
+    }
+    if (drawable == 1) {
+      drawable = 0
+    }
   }
   if (drawable = 1) {
     if (keyPress.keyCode == 87) {
-      faceUp()
+      faceDown()
       goForward(10)
     }
     if (keyPress.keyCode == 68) {
@@ -18,7 +23,7 @@ $(document).keydown(function(keyPress) {
       goForward(10)
     }
     if (keyPress.keyCode == 83) {
-      faceDown()
+      faceUp()
       goForward(10)
     }
   }
