@@ -8,7 +8,15 @@ $(document).keydown(function(keyPress) {
     if (keyPress.keyCode == 87) {
       
     }
-    if (keyPress.k
+    if (keyPress.keyCode == 68) {
+      
+    }
+    if (keyPress.keyCode == 65) {
+      
+    }
+    if (keyPress.keyCode == 83) {
+      
+    }
   }
 })
 $("#text").keydown(function(keyDown) {
