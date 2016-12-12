@@ -8,7 +8,15 @@ function faceUp() {
 }
 
 function faceDown() {
-  heading = 
+  heading = 270
+}
+
+function faceRight() {
+  heading = 0
+}
+
+function faceLeft() {
+  heading = 180
 }
 
 function turnRight() {
