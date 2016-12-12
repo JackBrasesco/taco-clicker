@@ -1,0 +1,62 @@
+var taco = $("#taco");
+
+var tacoCount = 0;
+
+if (localStorage.getItem("btnpressed") == 1) {
+  tacoCount = parseInt(localStorage.getItem("tacos"));
+//  clickAdd = parseInt(localStorage.getItem("b"));
+}
+else {
+ tacoCount = 0 
+}
+$("#tacoTitle").html("You have " + tacoCount + " tacos!");
+
+taco.click(function() {
+  tacoClicked();
+})
+
+setInterval(function() {
+  if (localStorage.getItem("isTacoBell") == 1) {
+  tacoCount = (tacoCount + parseInt(localStorage.getItem("idleAdd")));
+    $("#tacoTitle").html("You have " + tacoCount + " tacos!");
+    $("#title").html(tacoCount);
+    localStorage.setItem("tacos",tacoCount) 
+
+
+  }
+  else {
+    tacoCount = tacoCount
+  }
+}
+,1000)
+
+function tacoClicked() {
+  taco.css({background: "ghostwhite"});
+  
+  setTimeout(function() {
+      taco.css({background: "white"});
+    }, 100)
+  
+  moreTaco()
+  $("#tacoTitle").html("You have " + tacoCount + " tacos!");
+}
+
+function moreTaco() {
+  if (localStorage.getItem("is2x") == 1) {
+  tacoCount = (tacoCount + parseInt(localStorage.getItem("b")));
+  }
+  else {
+    tacoCount = (tacoCount + 1)
+  }
+  localStorage.setItem("tacos",tacoCount);
+};
+
+$("#h").click(function() {
+  localStorage.setItem("tacos", tacoCount)
+  localStorage.setItem("btnpressed", 1)
+  localStorage.setItem("b", clickAdd)
+})
+
+$("#i").click(function() {
+  localStorage.clear()
+})
