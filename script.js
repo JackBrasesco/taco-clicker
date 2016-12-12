@@ -4,7 +4,9 @@ $(document).keydown(function(keyPress) {
   if (keyPress.keyCode == 67) {
     drawable = 1
   }
-  if (d
+  if (drawable = 1) {
+    
+  }
 })
 $("#text").keydown(function(keyDown) {
   if (keyDown.keyCode == 13) {
