@@ -7,7 +7,7 @@ function faceUp() {
   heading = 90
 }
 
-function ssfaceDown() {
+function faceDown() {
   heading = 270
 }
 
