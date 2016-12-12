@@ -5,10 +5,13 @@ $(document).keydown(function(keyPress) {
   if (keyPress.keyCode == 67) {
     console.log(drawable)
     if (drawable == 0) {
+      console.log(drawable)
       drawable = 1
     }
     if (drawable == 1) {
+      console.log(drawable)
       drawable = 0
+      console.log(drawable)
     }
   }
   console.log(drawable)
