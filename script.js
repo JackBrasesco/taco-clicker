@@ -1,4 +1,8 @@
 var drawable = 0;
+
+$(document).keydown(function(keyPress) {
+  if (keyPress.
+})
 $("#text").keydown(function(keyDown) {
   if (keyDown.keyCode == 13) {
     var whatToDraw = $("#text").val()
