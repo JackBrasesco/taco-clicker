@@ -3,7 +3,6 @@ var drawable = 0;
 $(document).keydown(function(keyPress) {
 //  console.log(keyPress)
   if (keyPress.keyCode == 67) {
-    console.log(drawable)
     if (drawable == 0) {
       console.log("swithicnon", drawable)
       drawable = 1
@@ -15,7 +14,7 @@ $(document).keydown(function(keyPress) {
     }
   }
   console.log(drawable)
-  if (drawable = 1) {
+  if (drawable == 1) {
     if (keyPress.keyCode == 87) {
       faceDown()
       goForward(10)
